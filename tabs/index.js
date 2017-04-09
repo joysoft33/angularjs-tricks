@@ -38,9 +38,7 @@ let tabs = {
     this.$postLink = () => {
       this.selectTab(this.selected || 0);
     }
-
   },
-
 };
 
 let tab = {

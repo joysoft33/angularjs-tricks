@@ -1,19 +1,20 @@
 var NameComponent = {
-  bindings: {
-    name: '<',
-    age: '<'
-  },
-  controller: function () {},
-  controllerAs: '$ctrl',
+
   template: `
     <div>
       <p>Name: {{$ctrl.name}}</p>
       <p>Age: {{$ctrl.age}}</p>
     </div>
-  `
+  `,
+
+  bindings: {
+    name: '<',
+    age: '<'
+  }
 };
 
 function MainController() {
+
   this.people = [{
     name: 'Todd',
     age: 25

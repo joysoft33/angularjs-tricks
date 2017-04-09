@@ -1,9 +1,9 @@
 var parentComponent = {
   template: `
   	<div>
-    	<a href="" ng-click="$ctrl.changeUser();">
+    	<button ng-click="$ctrl.changeUser();">
       	Change user (this will call $onChanges in child)
-      </a>
+      </button>
     	<child-component user="$ctrl.user"></child-component>
     </div>
   `,
